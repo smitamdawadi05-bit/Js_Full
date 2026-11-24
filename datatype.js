@@ -34,3 +34,25 @@ console.log("0 =>" + Boolean(0))
 let bh = ""
 console.log("(emptyString) =>" + Boolean(bh))
 console.log("str => " + Boolean(str))
+
+//bigInt
+let big = 7894561237894n  //Use n for bigInt
+
+console.log("Type Of BigInt : " + typeof(big))
+
+/// Function, Array , Object ///
+function hello() {
+    console.log("hello")
+}
+console.log(typeof(hello))
+
+let arr2 = ["AAA","BBB","CCC"];
+
+console.log(typeof(arr2))
+
+let obj2 = {
+    id : 123,
+    name : "Alex"
+}
+
+console.log(typeof(obj2))
